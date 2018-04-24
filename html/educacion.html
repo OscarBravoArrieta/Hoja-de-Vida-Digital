@@ -219,26 +219,74 @@
     <p>
       <h2>Educación</h2>
     </p>
-    <table border="1" cellpadding="10" cellspacing="0">
+    <table border="1" cellpadding="3" cellspacing="0">
       <tr>
         <th>Año</th>
-        <th>Información</th>
+        <th>Institución</th>
+        <th>Estudios realizados</th>
         <th>Lugar</th>
         <th>¿Culminó?</th>
        </tr>
        <tr>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td>2016</td>
+         <td>Ingeniería de Sistemas</td>
+         <td>Universidad NAcional Abierta y a Distancia UNAD</td>
+         <td>Cartagena - Bolívar</td>
+         <td>Si</td>
        </tr>
-  <td colspan="4"></td>
-  </table> <br>
+       <tr>
+         <td>2017</td>
+         <td>Bases de datos, generalidades y sistemas de gestión</td>
+         <td>Servicio Nacional de Aprendizaje - SENA</td>
+         <td>Cartagena - Bolívar</td>
+         <td>Si</td>
+       </tr>
+       <tr>
+         <td>2017</td>
+         <td>Desarrollo de aplicaciones Java con interfaz gráfica, manejo de eventos, clases y objetos</td>
+         <td>Servicio Nacional de Aprendizaje - SENA</td>
+         <td>Cartagena - Bolívar</td>
+         <td>Si</td>
+       </tr>
+       <tr>
+         <td>1993</td>
+         <td>Análisis y Programación de Computadoras</td>
+         <td>Centro de informática de la costa - PROCESO Ltda.</td>
+         <td>Cartagena - Bolívar</td>
+         <td>Si</td>
+       </tr>
+  </table>
+  <hr>
+  <br>
+  <br>
+  <form autocomplete="on" name="formularioEducacion">
+    <fieldset>
+      <h1>Agregar educación</h1>
+      <p>Año:
+         <input type="number" min="1980" max="2050">
+      </p>
+      <p>
+        <label for="Institucion">Nombre de usuario</label>
+        <input type="text" name="Institución" placeholder="Institucion" required>
+      </p>
+      <p>
+        <label for="lugar">Lugar</label> <br>
+        <textarea name="lugar" rows="5" cols="60"></textarea>
+      </p>
+      <p>
+        <label for="culmino">¿Culminó?</label> <br>
+        <input type ="radio" name= "culmino" value="1">Si
+        <input type ="radio" name= "culmino" value="2">No<br>
+      </p>
+      <p>
+        <input type="submit" value="enviar">
+      </p>
+    </fieldset>
 
-
+  </form>
     <footer>
       <p>
-        @Derechos reservados <br> <br>    
+        @Derechos reservados <br> <br>
         Email:oscarbravoarrieta@gmail.com
         <br>
         Teléfono:3002012289
